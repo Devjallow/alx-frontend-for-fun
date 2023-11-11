@@ -1,0 +1,43 @@
+body{
+    background-color:white;
+    font-size: larger;
+    font-weight:bolder;
+}
+ul{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+ul li {
+    text-align:center;
+    padding:0.10rem;
+    border-radius:10px;
+    width:250px;
+    height:25vw;
+    border:4px solid rgb(133, 131, 131);
+    list-style:none;
+    margin:10px;
+
+    background-color: rgb(237, 237, 237);
+   
+}
+li span{
+    width:50%;
+    height:250px;
+    padding: 50px;
+    display:block;
+}
+.i-html {
+    display: inline-block;
+    background: url('./spite.png')0 0;
+    align-items:center;
+}
+.i-css{
+    display:inline-block;
+    background: url('./spite.png')-315px 0;
+}
+.i-js{
+    display:inline-block;
+    background: url('./spite.png') no-repeat -600px 0;
+    align-items:center;
+}
